@@ -126,7 +126,7 @@ export default function Cadastro(){
                         secureTextEntry/>
             </View>
             <Botao tittle="Cadastrar" onPress={handleNavigateToEntradaDetails} color="#4478B6"/>
-            
+            {/* up */}
             <Link tittle="Já sou cadastrado"  onPress={handleNavigateToLoginDetails} size={18}/>
             <View style={styles.boxsociais}>
                 <Text style={styles.redesSociais}>Acesse com as Redes Sociais</Text>
